@@ -1,44 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="tictactoe" title="#tictactoe" src="./screenshots/logo.png" />
+</h1>
 
-## Available Scripts
+<h1 align="center">
 
-In the project directory, you can run:
+❌  <a href="#"> Tic-Tac-Toe </a> ⭕
+</h1>
 
-### `npm start`
+<h3 align="center">
+Tic-Tac-Toe game
+</h3>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/arubesu/tictactoe">
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/arubesu/tictactoe">
 
-### `npm test`
+  <a href="https://github.com/arubesu/tictactoe/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arubesu/tictactoe">
+  </a>
+    <img alt="Status" src="https://img.shields.io/badge/Status-Finished-green">
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#layout">Layout</a> •
+ <a href="#pre-requisites"> Pre requisites</a> •
+ <a href="#tech-stack">Tech Stack</a> •
+ <a href="#author">Author</a> •
+ <a href="#license">License</a>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## About
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🔎 Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project developed following [React docs](https://reactjs.org/tutorial/tutorial.html).
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Layout
 
-## Learn More
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+ <img  alt="Game"  title="#HomePage"  src="./screenshots/game.png"  width="400px">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## Pre-requisites
+
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
+
+#### Running the web application
+
+```bash
+
+# Clone this repository
+$ git clone git@github.com:arubesu/tictactoe.git
+
+# Access the project folder cmd/terminal
+$ cd tictactoe
+
+# install the dependencies
+$ npm install
+
+# Run the application in development mode
+$ npm start
+
+# The server will start at port: 3333 - go to http://localhost:3333
+
+```
+---
+
+## Tech Stack
+
+The following tools were used in the construction of the project:
+
+#### **Game**  ([React](https://reactjs.org/) ) 
+
+-   **[React Dom](https://pt-br.reactjs.org/docs/react-dom.html)**
+
+> See the file  [package.json](https://github.com/arubesu/tictactoe/blob/master/package.json)
+
+## How to contribute
+
+1. Fork the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save your changes and create a commit message telling you what you did: `git commit -m" feature: My new feature "`
+4. Submit your changes: `git push origin my-feature`
+> If you have any questions check this [guide on how to contribute](https://github.com/firstcontributions/first-contributions)
+
+---
+
+## Author
+
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/29710382?v=4" width="100px;" alt="Bruno Souza"/>
+ <br />
+
+ [![Linkedin Badge](https://img.shields.io/badge/-Bruno_Souza-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bruno-a-souza/)](https://www.linkedin.com/in/bruno-a-souza/)
+---
+
+## License
+
+This project is under the license [MIT](./LICENSE).
+
+Made with ❤️  by Bruno Souza 👋🏽 [Get in Touch!](https://www.linkedin.com/in/bruno-a-souza/)
